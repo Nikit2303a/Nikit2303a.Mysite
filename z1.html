@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My web-site</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="z1.css">
+    <style>
+     body {
+  width: 100%;
+  height: 300px;
+}
+.Modal {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background: rgba(0,0,0,0.7);
+    pointer-events: none;
+}
+.Modal:target {
+    display: flex;
+    pointer-events: auto;
+} 
+.Modal_Body {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background: #FFF;
+}
+    </style>
+
+</head>
+<body>
+  <ul id="navbar">
+      <li><a href="#">Главная</a></li>
+      <li><a href="#di">Соц.сети</a></li>
+      <li><a href="#era">Работы</a>
+        
+      </li>
+      <li><a href="ex.html">Вход</a></li>
+    </ul>
+  <div id="headerwrap">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h1>My web-site</h1>
+          <h2>делаем лучшие сайты</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container w">
+    <div class="row centered">
+      <br><br>
+      <div class="col-lg-4">
+        <i class="fa fa-heart"></i>
+        <h4>Дизайн</h4>
+		
+        <p>Мы сделаем дизайн сайта как вы сами захотите. Это может быть любой стиль</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa fa-laptop"></i>
+        <h4>Компьютеры</h4>
+        <p>Надпись не умеет смысла</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa fa-trophy"></i>
+        <h4>Помощь</h4>
+        <p>Если у вас возникли какие-то вопросы вы можете с нами связаться в социальных сетях</p>
+      </div>
+    </div>
+    <br><br>
+  </div>
+  <div id="dg">
+    <div class="container">
+      <div class="row centered">
+        <h4 id="era">Последние работы</h4>
+        <br>
+        <div class="col-lg-4">
+          <div class="tilt">
+		  <br>
+		  <br>
+            <a href="#"><img src="61293542.jpg" alt="" align="right"></a>
+          </div>
+        </div>
+		
+        <div class="col-lg-4">
+		<br>
+		  <br>
+          <div class="tilt">
+            <a href="#"><img src="prodsajt-primer1.jpg" alt="" align="left"></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="container wb">
+    <div class="row centered">
+      <br><br>
+      <div class="col-lg-8 col-lg-offset-2">
+        <h4 align="center">Мы создаем сайты</h4>
+        <p>Вы можете связаться с нами уже сейчас и мы сделаем вам сайт!</p>
+        <p><br><br></p>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-10 col-lg-offset-1">
+        <img src="unnamed.jpg" alt="" class="img-responsive">
+      </div>
+    </div>
+  </div>
+ 
+  <div id="r">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h4>Разработка сайтов на профессиональном уровне</h4>
+          <p id="di">Мы делаем сайты с нуля под ключ.</p>
+		  
+
+    <a href="#ModalWindow" id="ModalWindowClose">Открыть модальное окно</a>
+ 
+<div id="ModalWindow" class="Modal">
+    <div class="Modal_Body">
+        <p><font color="black"Контент внутри окна</font></p>
+        <a href="#ModalWindowClose">Закрыть</a>
+    </div>
+</div>
+ 
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="f" >
+    <div class="container">
+      <div class="row centered">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/?hl=uk"><i class="fa fa-instagram "></i></a>
+		<a href="https://twitter.com/explore"><i class="fa fa-twitter "></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
